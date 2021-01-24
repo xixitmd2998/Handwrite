@@ -27,5 +27,5 @@ yarn lint
 ### 在线 demo
 
 ```
-[https://demo.weuh.cn/handwrite/]
+<https://demo.weuh.cn/handwrite/>
 ```
