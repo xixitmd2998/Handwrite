@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>手写板</h1>
     <handwrite></handwrite>
   </div>
 </template>

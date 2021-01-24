@@ -65,7 +65,7 @@
         <div class="inner-color" :style="{'background-color':item}"></div>
       </div>
     </div>
-    <el-popconfirm title="确定清除当次全部内容吗？" @onConfirm="handle('clear','清空')">
+    <el-popconfirm title="确定清除当次全部内容吗？" @confirm="handle('clear','清空')">
       <el-button size="small" class="clear" slot="reference">清空</el-button>
     </el-popconfirm>
     <el-button size="small" class="back" @click="handle('back','撤销')">撤销</el-button>
